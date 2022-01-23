@@ -10,9 +10,13 @@ h3{
   font-family: 'Barlow-bold', sans-serif;
 }
 /*class selector*/
+
 .container-fluid{
   overflow: hidden;
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+}
+.img-col{
+  position: relative;
 }
 /* download button */
 .download-button{
@@ -52,10 +56,16 @@ h3{
 .title-image{
   width:60%;
   transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
+
 }
 /*ID selector*/
 #features{
   padding: 7% 15%;
+  background-color: #FBE5E5;
+  position:relative;
+    z-index:1;
 }
 
 #heading{
@@ -71,8 +81,10 @@ h3{
 }
 
 /* testimonials section */
-#testimonials{
+.carousel-item{
   padding: 7% 15%;
+}
+#testimonials{
   text-align: center;
   background-color: #F94892;
   color: #FBE5E5;
@@ -86,4 +98,25 @@ h3{
 #title{
   background-color: #E60965;
   color: #FBE5E5;
+}
+
+/* pricing section */
+#pricing{
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 2% 3%;
+}
+
+@media screen and (max-width: 1000px){
+ #title{
+   text-align: center;
+ }
+
+ .title-image{
+   position: static;
+   transform: rotate(0);
+ }
 }
