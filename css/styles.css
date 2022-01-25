@@ -104,11 +104,40 @@ h3{
 #pricing{
   padding: 5% 10%;
   text-align: center;
+  background-color: #FBE5E5;
 }
 
 .pricing-col{
   padding: 2% 3%;
 }
+.card{
+  background-color: #FBE5E5;
+}
+
+/* cta section */
+#cta{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #E60965;
+  color: #FBE5E5;
+}
+.cta-heading{
+  font-family: 'Barlow-black', sans-serif;
+  font-size: 3rem;
+}
+
+/* footer section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FBE5E5;
+}
+
+/* social icon */
+.social-icon{
+  margin: 20px 10px;
+}
+
 
 @media screen and (max-width: 1000px){
  #title{
